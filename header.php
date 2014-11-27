@@ -22,16 +22,18 @@ Honor Code: We pledge that this code represents our own work: name(s)
 <body>
 	<div id="main">
 	<div id="banner">
-		<a href="main.php"><img src="icon.jpg"></a>
+		<a href="index.php"><img src="icon.jpg"></a>
 		<h1>Book Drop</h1>
 	</div>
 	<div id="nav">
-		<select id="searchFilter" class="searchBar">
-			<option value="prof">Search by Professor</option>
-			<option value="classNum">Search by Class Number</option>
-			<option value="major">Search by Major</option>
-		</select>
-		<input class="searchBar" type="text" id="searchBox" value="" placeholder="Jagodzinski"/>	
-		<button id="postBook">Post a book</button>
+		<form action="searchResult.php" method="post" id="searchForm">
+			<select id="searchFilter" class="searchBar" name="filter">
+				<option value="prof">Search by Professor</option>
+				<option value="classNum">Search by Class Number</option>
+				<option value="major">Search by Major</option>
+			</select>
+			<input class="searchBar" type="text" name="searchBox" id="searchBox" value="" placeholder="Jagodzinski"/>
+			<button type="button" id="postBook">Post a book</button>
+	</form>
 	</div>
 	<div id="content">	

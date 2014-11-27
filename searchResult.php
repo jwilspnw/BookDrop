@@ -1,10 +1,5 @@
 <?php include 'header.php';?>
-<h2>Welcome to Book Drop</h2>
-<p>To post an ad for a book you want to trade, click the post ad button.</p>
-<p>You can also search for a book by professor, class number, or major.</p>
 
-<p>Thanks for coming and here is a list of our most recent postings!</p>
-	
 <table>
 	<caption>Books</caption>
 
@@ -17,7 +12,18 @@
 	<th>Phone</th>
 
 	<?php
-		$query = 'SELECT * FROM books';
+		$filter = $_POST['filter'];
+		$searchWord = $_POST['searchBox'];
+
+		if($filter == "prof"){
+			$query = 'SELECT * FROM books where prof == "'.$searchWord.'"';
+		}elseif ($filter =="classNum") {
+			$query = 'SELECT * FROM books';//Needs to be fixed
+		}else{
+			$query = 'SELECT * FROM books where major == "'.$searchWord.'"';
+		}
+		
+		
 		$result = $db->query($query);
 		while($row=$result->fetchArray(SQLITE3_NUM)){
 			print '<tr>';
@@ -27,7 +33,6 @@
 		}			
 
 	?>
-</table>
-
+</table>	
 
 <?php include 'footer.php';?>

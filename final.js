@@ -14,10 +14,13 @@ $(document).ready(function() {
 
 	//Submisson of search box
 	$("#searchBox").keyup(function(event){
-    if(event.keyCode == 13){
-        alert('search field submitted');
-    }
-});
+	    if(event.keyCode == 13){
+	        $( "#searchForm" ).submit(function( event ) {
+			  alert( "Handler for .submit() called." );
+			  event.preventDefault();
+			});
+		}	
+	});
 
 	//Handles redirect to ad posting page
 	$('#postBook').click(function() {
