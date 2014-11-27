@@ -13,6 +13,6 @@
 		$db = new SQLite3('bookDrop.db');
 		$db->exec($insertQuery);
 
-		header('Location: main.php');
+		header('Location: index.php');
 	}
 ?>
