@@ -1,0 +1,141 @@
+fieldset{
+	margin: 0 auto;
+}
+
+table{
+	margin: 0 auto;
+	width: 900px;
+	border-spacing: 0px;
+	text-align: center;
+}
+
+caption {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 20px;
+}
+
+td {
+	padding-top: 15px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid lightgrey;
+}
+
+th {
+	border-bottom: 2px solid black;
+	padding-bottom: 5px;
+}
+
+#postAdSubmit{
+	margin: 0 auto;
+	width: 900px;
+	text-align: center;
+}
+
+.postingLabel {
+    display: block;
+    width: 400px;
+    text-align: right;
+}
+
+.postingField{
+	width: 200px;
+	margin: 10px;
+	padding-left: 5px;
+	display: inline-block;
+	font-size: 14px;
+}
+
+#majorSelect {
+	border: 1px solid #CCC;
+	height: 35px;
+	outline: none;
+	display: inline-block;
+	font-size: 14px;
+	width: 210px;
+	margin: 10px;
+	padding-left: 5px;
+}
+
+h1{
+	font-size: 48px;
+	padding: 8px;
+	background-color: #FBFBFB;
+	margin: 0;
+	width: 300px;
+	float: left;
+	padding-top: 60px;
+}
+
+button{
+	padding: 10px;
+	font-size: 12px;
+	color: #000000; 
+  	background-color: #FBFBFB; 
+  	border: 1px solid grey;
+  	border-radius: 5px;
+  	outline: none;
+}
+
+button:active {
+  background-color: #FFFFFF;
+}
+
+#postBook{
+	float: right;
+}
+
+#banner{
+	width: 900px;
+	margin: 0 auto;
+	background-color: #FBFBFB;
+	overflow: auto;
+	padding: 15px;
+}
+
+#nav {
+	width: 900px;
+	background-color: #FBFBFB;
+	border-bottom: 1px solid black; 
+	border-top: 2px solid black;
+	padding: 15px;
+}
+
+#searchFilter{
+	border: 1px solid #CCC;
+	height: 35px;
+	vertical-align: bottom;
+	outline: none;
+}
+
+#searchBox {
+	width: 300px;
+	height: 30px;
+	padding-left: 5px;
+	margin-left: 10px;
+	vertical-align: bottom;
+	font-size:16px;
+}
+
+#main{
+	width: 900px;
+	margin: 0 auto;
+  	background-color: #FBFBFB;
+}
+
+#content{
+	width: 900px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+#banner img{
+	background-color: #FBFBFB;
+	float: left;
+}
+
+body{
+	font-family: sans-serif;
+	margin: 0 auto;
+	background-color: #FBFBFB;
+}
