@@ -29,7 +29,6 @@ Honor Code: We pledge that this code represents our own work: name(s)
 		<form action="searchResult.php" method="post" id="searchForm">
 			<select id="searchFilter" class="searchBar" name="filter">
 				<option value="prof">Search by Professor</option>
-				<option value="classNum">Search by Class Number</option>
 				<option value="major">Search by Major</option>
 			</select>
 			<input class="searchBar" type="text" name="searchBox" id="searchBox" value="" placeholder="Jagodzinski"/>

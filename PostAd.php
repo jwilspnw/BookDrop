@@ -3,7 +3,7 @@
 <!--
 	books(major varchar(4), class_num integer, title varchar(50), prof varchar(20), name varchar(30), email varchar(50), phone varchar(15))
 	insert into "books" values ("CS", 110, "Java for Beginners", "Jagodzinski", "Robert Test", "testr@cwu.edu", "1-555-555-5555");-->
-<form action="insertAd.php" method="post">	
+<form action="insertAd.php" method="post" id="adForm" name="adForm">	
 	<fieldset>
 		<legend>Book information</legend>
 
@@ -45,14 +45,10 @@
 			<input class="postingField" type="text" name="emailField" id="emailField" value="">
 		</label><br />
 
-		<label class="postingLabel">Phone (Optional)
-			<input class="postingField" type="text" name="phoneField" id="phoneField" value="">
-		</label>
-
 	</fieldset>	
 	<br />
 	<div id="postAdSubmit">
-		<button type="submit" name="adSubmit">Submit your ad</button>
+		<button type="button" id="adSubmit" name="adSubmit">Submit your ad</button>
 	</div>	
 </form>
 <?php include 'footer.php';?>

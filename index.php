@@ -14,7 +14,6 @@
 	<th>Professor</th>
 	<th>Name</th>
 	<th>Email</th>
-	<th>Phone</th>
 
 	<?php
 		$query = 'SELECT * FROM books';
