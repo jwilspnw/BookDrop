@@ -3,7 +3,7 @@
 <!--
 	books(major varchar(4), class_num integer, title varchar(50), prof varchar(20), name varchar(30), email varchar(50), phone varchar(15))
 	insert into "books" values ("CS", 110, "Java for Beginners", "Jagodzinski", "Robert Test", "testr@cwu.edu", "1-555-555-5555");-->
-<form action="insertAd.php" method="post" id="adForm" name="adForm">	
+<form action="insertAd.php" method="post" id="adForm">	
 	<fieldset>
 		<legend>Book information</legend>
 
@@ -21,34 +21,35 @@
 		</label><br />
 
 		<label class="postingLabel">Class Number
-			<input class="postingField" type="text" name="classField" id="classField" value="">
+			<input class="postingField" type="text" name="classField" id="classField" value="" />
 		</label><br />
 
 		<label class="postingLabel">Book title
-			<input class="postingField" type="text" name="titleField" id="titleField" value="">
+			<input class="postingField" type="text" name="titleField" id="titleField" value="" />
 		</label><br />
 
 		<label class="postingLabel">Professor
-			<input class="postingField" type="text" name="profField" id="profField" value="">
+			<input class="postingField" type="text" name="profField" id="profField" value="" />
 		</label>
 
 	</fieldset>	
-	<br />
+	<p></p>
 	<fieldset>
 		<legend>Your information</legend>
 
 		<label class="postingLabel">Name
-			<input class="postingField" type="text" name="nameField" id="nameField" value="">
+			<input class="postingField" type="text" name="nameField" id="nameField" value="" />
 		</label><br />
 
 		<label class="postingLabel">Email
-			<input class="postingField" type="text" name="emailField" id="emailField" value="">
+			<input class="postingField" type="text" name="emailField" id="emailField" value="" />
 		</label><br />
 
 	</fieldset>	
-	<br />
+	<p></p>
 	<div id="postAdSubmit">
 		<button type="button" id="adSubmit" name="adSubmit">Submit your ad</button>
-	</div>	
+	</div>
+
 </form>
 <?php include 'footer.php';?>

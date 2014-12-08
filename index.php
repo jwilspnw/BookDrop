@@ -5,15 +5,16 @@
 
 <p>Thanks for coming and here is a list of our most recent postings!</p>
 	
-<table>
+<table summary="This table displays the most recent posting to the site">
 	<caption>Books</caption>
-
-	<th>Major</th>
-	<th>Class</th>
-	<th>Title</th>
-	<th>Professor</th>
-	<th>Name</th>
-	<th>Email</th>
+	<tr>			
+		<th>Major</th>
+		<th>Class</th>
+		<th>Title</th>
+		<th>Professor</th>
+		<th>Name</th>
+		<th>Email</th>
+	</tr>	
 
 	<?php
 		$query = 'SELECT * FROM books';

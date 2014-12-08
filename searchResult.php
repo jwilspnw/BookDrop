@@ -1,14 +1,15 @@
 <?php include 'header.php';?>
 
-<table>
+<table summary="This table displays the results of the search">
 	<caption>Books</caption>
-
-	<th>Major</th>
-	<th>Class</th>
-	<th>Title</th>
-	<th>Professor</th>
-	<th>Name</th>
-	<th>Email</th>
+	<tr>
+		<th>Major</th>
+		<th>Class</th>
+		<th>Title</th>
+		<th>Professor</th>
+		<th>Name</th>
+		<th>Email</th>
+	</tr>	
 
 	<?php
 
