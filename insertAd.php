@@ -8,7 +8,7 @@
 		$email = $_POST['emailField'];
 
 
-
+		//Need to add more strict validation in JS
 		$insertQuery = 'INSERT into books values ("'.$major.'", '.$class.', "'.$title.'", "'.$prof.'", "'.$name.'", "'.$email.'")';
 		
 		$db = new SQLite3('bookDrop.db');
