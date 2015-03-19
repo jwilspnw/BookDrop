@@ -1,3 +1,3 @@
 BookDrop
 ========
-Project for CS250 
+PHP Application built to allow students to easily exchange books
