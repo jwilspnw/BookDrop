@@ -8,7 +8,7 @@ $(document).ready(function() {
 		}else if(selectVal == "prof"){
 			$('#searchBox').attr("placeholder", "Jagodzinski");
 		}else{
-			$('#searchBox').attr("placeholder", "Computer Science");
+			$('#searchBox').attr("placeholder", "CS");
 		}		
 	});
 
