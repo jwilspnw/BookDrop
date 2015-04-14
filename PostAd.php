@@ -1,8 +1,5 @@
 <?php include 'header.php';?>
 
-<!--
-	books(major varchar(4), class_num integer, title varchar(50), prof varchar(20), name varchar(30), email varchar(50), phone varchar(15))
-	insert into "books" values ("CS", 110, "Java for Beginners", "Jagodzinski", "Robert Test", "testr@cwu.edu", "1-555-555-5555");-->
 <form action="insertAd.php" method="post" id="adForm">	
 	<fieldset>
 		<legend>Book information</legend>
